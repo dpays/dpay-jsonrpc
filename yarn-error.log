@@ -32,8 +32,8 @@ npm manifest:
       "node": ">=8"
     },
     "dependencies": {
-      "@dpay/rpc-auth": "~0.1.1",
-      "@dpay/rpc": "~0.1.3",
+      "dpay-rpc-auth": "~0.1.1",
+      "ddpay": "~0.1.3",
       "uuid": "^3.2.1",
       "verror": "^1.10.0"
     },
@@ -64,17 +64,17 @@ Lockfile:
   # yarn lockfile v1
   
   
-  "@dpay/libcrypto@~0.1.1":
+  "dpay-libcrypto@~0.1.1":
     version "0.1.1"
     resolved "http://npm.dwebs.io/@dpay%2flibcrypto/-/libcrypto-0.1.1.tgz#dee3406bf985c4836f56be3c45b922a4cabf35b3"
   
-  "@dpay/rpc-auth@~0.1.1":
+  "dpay-rpc-auth@~0.1.1":
     version "0.1.1"
     resolved "http://npm.dwebs.io/@dpay%2frpc-auth/-/rpc-auth-0.1.1.tgz#3107150ef3c9a14a2a6a153d1f6c5456c079f961"
     dependencies:
-      "@dpay/libcrypto" "~0.1.1"
+      "dpay-libcrypto" "~0.1.1"
   
-  "@dpay/rpc@~0.1.3":
+  "ddpay@~0.1.3":
     version "0.1.3"
     resolved "http://npm.dwebs.io/@dpay%2frpc/-/rpc-0.1.3.tgz#09309e0eaecf89432702e7023878ec5c3bcae307"
     dependencies:
