@@ -1,12 +1,12 @@
 /**
- * @file Steem rpc-auth extension to JsonRpc
+ * @file dPay rpc-auth extension to JsonRpc
  * @author Johan Nordberg <johan@steemit.com>
- * See https://github.com/steemit/json-rpc
+ * See https://github.com/dpays/dpay-jsonrpc
  */
 
-import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from '@steemit/rpc-auth'
+import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from '@dpay/rpc-auth'
 import * as assert from 'assert'
-import {Client, ClientOptions, PublicKey, Signature} from 'dsteem'
+import {Client, ClientOptions, PublicKey, Signature} from '@dpay/rpc'
 import {RequestOptions} from 'https'
 import {parse as parseUrl} from 'url'
 
@@ -27,7 +27,7 @@ export class JsonRpcAuth extends JsonRpc {
     private client: Client
 
     /**
-     * @param rpcNode    Address to steemd node used for signature verification.
+     * @param rpcNode    Address to dpayd node used for signature verification.
      * @param namespace  Optional namespace to add to all methods.
      */
     constructor(public rpcNode: string, namespace?: string, options?: ClientOptions) {

@@ -1,15 +1,15 @@
 
-@steemit/koa-jsonrpc
+@dpay/koa-jsonrpc
 ====================
 
-*Build status: [![CircleCI](https://circleci.com/gh/steemit/koa-jsonrpc.svg?style=svg)](https://circleci.com/gh/steemit/koa-jsonrpc)*
+*Build status: [![CircleCI](https://circleci.com/gh/dpays/dpay-jsonrpc.svg?style=svg)](https://circleci.com/gh/dpays/dpay-jsonrpc)*
 
 Spec compliant JSON RPC Server middleware for Koa
 
 
 ```javascript
 const Koa = require('koa')
-const {JsonRpc} = require('@steemit/koa-jsonrpc')
+const {JsonRpc} = require('@dpay/koa-jsonrpc')
 
 const rpc = new JsonRpc()
 rpc.register('my_method', async (foo, bar) => {
