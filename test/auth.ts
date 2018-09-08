@@ -2,8 +2,8 @@ import 'mocha'
 import * as assert from 'assert'
 import * as Koa from 'koa'
 import * as http from 'http'
-import {sign} from '@dpay/rpc-auth'
-import {PrivateKey} from '@dpay/rpc'
+import {sign} from 'dpay-rpc-auth'
+import {PrivateKey} from 'ddpay'
 
 import {JsonRpcAuth, utils} from './../src/'
 const {jsonRequest} = utils

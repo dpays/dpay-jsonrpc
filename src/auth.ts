@@ -4,9 +4,9 @@
  * See https://github.com/dpays/dpay-jsonrpc
  */
 
-import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from '@dpay/rpc-auth'
+import {SignedJsonRpcRequest, validate as validateSignature, VerifyMessage} from 'dpay-rpc-auth'
 import * as assert from 'assert'
-import {Client, ClientOptions, PublicKey, Signature} from '@dpay/rpc'
+import {Client, ClientOptions, PublicKey, Signature} from 'ddpay'
 import {RequestOptions} from 'https'
 import {parse as parseUrl} from 'url'
 

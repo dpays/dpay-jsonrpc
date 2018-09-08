@@ -1,5 +1,5 @@
 {
-  "name": "@dpay/koa-jsonrpc",
+  "name": "dpay-json-rpc",
   "version": "0.1.1",
   "description": "Spec compliant JSON-RPC 2.0 server middleware for Koa",
   "license": "MIT",
@@ -16,8 +16,8 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@dpay/rpc-auth": "~0.1.1",
-    "@dpay/rpc": "~0.1.3",
+    "ddpay": "~0.1.1",
+    "dpay-rpc-auth": "~0.1.1",
     "uuid": "^3.2.1",
     "verror": "^1.10.0"
   },
